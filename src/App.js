@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CenteredCard children={arr[0]}></CenteredCard>
-        <CenteredCard children={arr[1]}></CenteredCard>
-        <CenteredCard children={arr[2]}></CenteredCard>
+        <CenteredCard>
+          <h1>OI</h1>
+        </CenteredCard>
       </header>
     </div>
   );
